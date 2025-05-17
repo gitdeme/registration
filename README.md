@@ -1,10 +1,10 @@
-# lalsoft-hrms
-# lalsoft-hrms
-📌 Project Name: Lalsoft HRMS
+# registratiion
+# registratiion
+📌 Project Name: student-registration
 
 🚀 Project Overview
 
-Lalsoft HRMS is a Human Resource Management System designed to streamline employee management, payroll, attendance, and more. This application is built using **NestJS** for the backend and integrated with a **PostgreSQL** database.
+Student registration  designed to streamline students profile management, and more. This application is built using **NestJS** for the backend and integrated with a **PostgreSQL** database.
 
 ---
 
@@ -13,8 +13,8 @@ Lalsoft HRMS is a Human Resource Management System designed to streamline employ
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/gitdeme/lalsoft-hrms.git
-   cd lalsoft-hrms
+   git clone https://github.com/gitdeme/registration.git
+   cd registration
    ```
 
 2. **Install dependencies:**
@@ -33,7 +33,7 @@ Lalsoft HRMS is a Human Resource Management System designed to streamline employ
      DB_PORT=5432
      DB_USERNAME=postgres
      DB_PASSWORD=root
-     DB_DATABASE=super_bms
+     DB_DATABASE=student_registration
      ```
 
 4. **Database Migration (if applicable):**
@@ -57,7 +57,7 @@ Lalsoft HRMS is a Human Resource Management System designed to streamline employ
 Ensure PostgreSQL is running and properly configured. You can validate the connection using:
 
 ```bash
-psql -U postgres -d super_bms -h localhost -W
+psql -U postgres -d registration-h localhost -W
 ```
 
 ---
@@ -92,6 +92,6 @@ This project is licensed under the MIT License.
 
 * **Developer:** Gitdeme
 * **Email:**  demeke.get23@gmail.com
-            seidmda@gmail.com
+          
 
 Feel free to reach out if you have any questions or want to contribute!

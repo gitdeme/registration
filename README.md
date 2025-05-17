@@ -20,7 +20,7 @@ Student registration  designed to streamline students profile management, and mo
 2. **Install dependencies:**
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. **Environment Setup:**
